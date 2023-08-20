@@ -1,0 +1,18 @@
+# Take input from the user
+limit = int(input("Enter the limit for Fibonacci series: "))
+
+# Initialize variables for the first two numbers
+a = 0
+b = 1
+
+# Print the first two numbers in the series
+print(a, end=" ")
+print(b, end=" ")
+
+# Generate and print the Fibonacci series using if-else statements
+while b <= limit:
+    c = a + b
+    if c <= limit:
+        print(c, end=" ")
+    a = b
+    b = c
