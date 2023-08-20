@@ -1,0 +1,12 @@
+# Take input from the user
+word = input("Enter a word: ")
+
+# Initialize an empty string to store the reversed word
+reversed_word = ""
+
+# Reverse the word using if-else statements
+for char in word:
+    reversed_word = char + reversed_word
+
+# Print the reversed word
+print("Reversed word:", reversed_word)
